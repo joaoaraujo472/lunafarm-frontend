@@ -318,3 +318,65 @@ header{
     0 10px 40px rgba(0,0,0,.4);
 
 }
+
+/* BENEFICIOS */
+
+.container-beneficios{
+
+    max-width:1200px;
+    margin:auto;
+
+}
+
+.container-beneficios h2{
+
+    text-align:center;
+    margin-bottom:3rem;
+
+}
+
+.beneficios-grid{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:2rem;
+
+    flex-wrap:wrap;
+
+}
+
+.card{
+
+    width:320px;
+
+    padding:2rem;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.05);
+
+    backdrop-filter:blur(10px);
+
+    border:1px solid rgba(255,255,255,.1);
+
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:var(--cor-destaque);
+
+}
+
+.card h3{
+
+    color:var(--cor-destaque);
+
+    margin-bottom:1rem;
+
+}
