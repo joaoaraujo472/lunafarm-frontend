@@ -380,3 +380,41 @@ header{
     margin-bottom:1rem;
 
 }
+
+/* ESTATISTICAS */
+
+.estatisticas{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:2rem;
+
+    flex-wrap:wrap;
+
+    padding:6rem 5%;
+
+}
+
+.stat{
+
+    min-width:220px;
+
+    text-align:center;
+
+    padding:2rem;
+
+    background:rgba(255,255,255,.05);
+
+    border-radius:20px;
+
+}
+
+.stat h3{
+
+    font-size:3rem;
+
+    color:var(--cor-destaque);
+
+}
