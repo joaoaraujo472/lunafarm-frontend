@@ -418,3 +418,53 @@ header{
     color:var(--cor-destaque);
 
 }
+
+/* FOOTER */
+
+.rodape{
+
+    background:#050b14;
+
+    padding:4rem 2rem;
+
+    text-align:center;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.rodape h3{
+
+    color:var(--cor-destaque);
+
+    margin-bottom:1rem;
+
+}
+
+.rodape-integrantes{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:1rem;
+
+    flex-wrap:wrap;
+
+    margin:2rem 0;
+
+}
+
+.rodape-integrantes li:first-child{
+
+    color:var(--cor-destaque);
+
+    font-weight:700;
+
+}
+
+.rodape-integrantes li:last-child{
+
+    opacity:.8;
+
+}
