@@ -245,3 +245,76 @@ header{
     transform:translateY(-5px);
 
 }
+
+/* SEÇÕES */
+
+.secao{
+
+    padding:7rem 5%;
+
+}
+
+.secao-conteudo{
+
+    display:flex;
+    align-items:center;
+    gap:4rem;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+.secao-invertida .secao-conteudo{
+
+    flex-direction:row-reverse;
+
+}
+
+/* TITULOS */
+
+.secao h2{
+
+    font-family:var(--fonte-titulo);
+
+    color:var(--cor-destaque);
+
+    margin-bottom:1rem;
+
+    position:relative;
+
+    padding-left:1rem;
+
+}
+
+.secao h2::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:4px;
+
+    height:100%;
+
+    background:var(--cor-primaria);
+
+    border-radius:4px;
+
+}
+
+/* IMAGENS */
+
+.imagem img{
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 40px rgba(0,0,0,.4);
+
+}
